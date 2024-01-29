@@ -1,8 +1,9 @@
 # Descrição
-A SearchForThis é uma biblioteca que efetua pesquisas em motores de busca na web.
+A `SearchForThis` é uma biblioteca que efetua pesquisas em motores de busca na web.
 
-# Funcionalidade
+# Funcionalidades
 * Realizar buscas por conteúdos desejados
+* Acessar links retornados
 
 # Biblioteca
 ### Instalação
@@ -10,22 +11,22 @@ A SearchForThis é uma biblioteca que efetua pesquisas em motores de busca na we
 pip install searchft
 ```
 
-### Importar
+### Importação
 ```python
 import Searchft
 ```
 
-### Uso
-Faca uma instância da classe, dessa forma:
+### Acessando métodos
+Para utilizar, você não precisa atribuir a instância da classe a uma variável, pode fazer da seguinte forma:
 ```python
-search = Searchft()
+Searchft.method()
 ```
-Assim você poderá acessar os metodos da classe. Não é preciso nenhum argumento na hora de instanciar a classe.
+Onde `method`, é o nome método que você deseja utilizar.
 
 ### Realizando buscas:
-Use o metodo buscar da classe, da seguinte forma:
+Use o método buscar da classe, da seguinte forma:
 ```python
-resultado = search.buscar('conteúdo da busca', size)
+resultado = Search.buscar('conteúdo da busca', size)
 ```
-A variável size, armazena a quantidade de links que você deseja bucsar
+A variável size, armazena a quantidade de links que você deseja buscar
 
